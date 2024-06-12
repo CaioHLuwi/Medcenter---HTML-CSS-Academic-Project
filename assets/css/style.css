@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+}
+
+.container {
+    width: 990px;
+    height: 100px;
+    background-color: blueviolet;
+}

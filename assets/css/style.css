@@ -26,6 +26,7 @@ header {
 }
 
 .logo {
+    margin-left: 20px;
     display: flex;
     align-items: center;
 }
@@ -383,7 +384,7 @@ footer .widget_body a {
     background-color: #2098bd;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 
     .banner_headbox {
         margin: 10px 0 0 10px;
@@ -408,6 +409,11 @@ footer .widget_body a {
     }
 
     #geral section article{
+        display: flex;
+        justify-content: center;
+    }
+
+    article .news_card {
         display: flex;
         justify-content: center;
     }
@@ -458,7 +464,12 @@ footer .widget_body a {
 
     nav ul {
         flex-direction: column;
+        position: absolute;
         display: none;
+        left: 0;
+        width: 100%;
+        margin-top: 120px;
+        background-color: #ffff;
     }
 
     .menu_mobile {
